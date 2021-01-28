@@ -1,0 +1,14 @@
+<launch>
+
+    <!-- SYNC  -->
+    <node pkg="sync" type="sync.py" name="sync" output="screen">
+        <param name="dt_sync" value="0.1" />
+    </node>
+
+    <!-- CAMERAS -->
+    <include file="$(find cameras)/launch/cameras.launch"></include>
+
+    <!-- LIDAR--> 
+    <include file="$(find lidar)/launch/lidar.launch"></include>
+
+</launch>

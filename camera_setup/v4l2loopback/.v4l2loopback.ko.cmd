@@ -1,0 +1,1 @@
+cmd_/home/vita-etienne/Documents/VITA/v4l2loopback/v4l2loopback.ko := ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o /home/vita-etienne/Documents/VITA/v4l2loopback/v4l2loopback.ko /home/vita-etienne/Documents/VITA/v4l2loopback/v4l2loopback.o /home/vita-etienne/Documents/VITA/v4l2loopback/v4l2loopback.mod.o ;  true
