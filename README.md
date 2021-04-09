@@ -30,10 +30,17 @@ more details on **camera_setup/**
 or just use the scripts ( follow the order ) : 
 ```
 ./buildKernel.sh
-# connect camera 0
-./lowerScript.sh
-# connect camera 1
+
+# Power on Camera 1
+connect camera 1 via USB - B
+put device on Live Mode
 ./upperScript.sh
+
+# Power on Camera 0
+connect camera 0 via USB - B
+put device on Live Mode
+./lowerScript.sh
+
 
 ./publishTopics.sh
 ```
