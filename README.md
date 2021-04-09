@@ -53,6 +53,7 @@ or just use the script :
 ```
 # follow the scipt instructions ( do not connect the Lidar first )
 ./setupLidar.sh
+./launchLidar.sh
 ```
 
 ## recording
